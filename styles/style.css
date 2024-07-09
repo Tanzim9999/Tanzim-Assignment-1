@@ -280,6 +280,9 @@
   opacity: 0.7;
   margin-bottom: 80px;
 }
+.inspire-container > iframe {
+  border-radius: 16px;
+}
 
 /* Target page css starts here  */
 
@@ -288,7 +291,7 @@
   width: 1140px;
   height: 460px;
   flex-direction: column;
-  margin: 0px 150px;
+  margin: 150px 150px;
   /* border: 2px solid red; */
   /* justify-content: center; */
   align-items: center;
@@ -315,9 +318,7 @@
   opacity: 0.7;
 }
 
-
 /* Target-items section goes here  */
-
 
 .target-item-container {
   display: flex;
@@ -329,6 +330,7 @@
   width: 364px;
   height: 350px;
   /* border: 2px solid red; */
+  border-radius: 16px;
 }
 
 /* Target 1 css here  */
@@ -356,26 +358,26 @@
   margin-left: 40px;
 }
 .target-1 > p {
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
-margin: 0px 40px 24px 40px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin: 0px 40px 24px 40px;
 }
 .target-1 > a {
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-margin: 0px 0px 40px 40px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 0px 0px 40px 40px;
 }
 
 /* Target 1 ends here  */
@@ -405,30 +407,29 @@ margin: 0px 0px 40px 40px;
   margin-left: 40px;
 }
 .target-2 > p {
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
-margin: 0px 40px 24px 40px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin: 0px 40px 24px 40px;
 }
 .target-2 > a {
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-margin: 0px 0px 40px 40px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 0px 0px 40px 40px;
 }
 
 /* Target 2 ends and target 3 starts here  */
-
 
 .target-3 {
   background-color: rgba(255, 223, 0, 0.05);
@@ -453,24 +454,147 @@ margin: 0px 0px 40px 40px;
   margin-left: 40px;
 }
 .target-3 > p {
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
-margin: 0px 40px 24px 40px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin: 0px 40px 24px 40px;
 }
 .target-3 > a {
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-margin: 0px 0px 40px 40px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 0px 0px 40px 40px;
+}
+
+/* Support page section starts here  */
+
+.support-section {
+  width: 1140px;
+  height: 313px;
+  /* border: 2px red solid; */
+  /* background-image: url(../assets/handshake.jpg); */
+  /* background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/handshake.jpg);
+
+  /* background-image: black (to right , rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0url(../assets/handshake.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin: 80px 150px;
+  border-radius: 16px;
+}
+
+.support-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  width: 1044px;
+  height: 185px;
+  margin: 64px 198px;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: 48px 198px; */
+}
+.support-container > h3 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.support-container > p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.input-container {
+  display: flex;
+  gap: 16px;
+}
+.input-1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  width: 548px;
+  height: 57px;
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 19px 20px 19px 20px;
+}
+.input-2 {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Footer container starts here  */
+.footer-section {
+    display: flex;
+  /* border: 2px solid red; */
+  width: 1440px;
+  height: 100px;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.1);
+}
+.footer-container {
+  /* border: 2px red solid; */
+  display: flex;
+  width: 1140px;
+  height: 36px;
+  margin: 32px 150px;
+  gap: 680px;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.footer-container > h4 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer-icons {
+  display: flex;
+  gap: 24px;
+  width: 36px;
+  height: 36px;
 }
