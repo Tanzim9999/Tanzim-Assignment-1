@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* This is where the styles/css of the front banner starts */
+.front-banner {
+  background-image: url(/assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  height: 652px;
+  background-size: contain;
+}
+.banner-texts {
+  display: flex;
+  height: 652px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid green; */
+  margin: 0px 221px;
+}
+
+.banner-texts img {
+  height: 240px;
+  width: 240px;
+}
+.banner-texts h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  text-align: center;
+  margin: 24px 0px;
+}
+.banner-texts p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  opacity: 0.7;
+  margin: 24px 0px;
+  /* border: 2px solid green; */
+}
+
+.banner-texts button {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px 21px 24px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor:pointer;
+}
