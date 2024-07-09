@@ -19,7 +19,7 @@
 
 /* This is where the styles/css of the front banner starts */
 .front-banner {
-  background-image: url(/assets/Hero-bg.png);
+  background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   height: 652px;
   background-size: contain;
