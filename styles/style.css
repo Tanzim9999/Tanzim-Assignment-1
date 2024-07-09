@@ -254,7 +254,7 @@
   height: 775px;
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0px 150px;
   /* justify-content: ; */
   align-items: center;
@@ -270,15 +270,207 @@
   margin-bottom: 24px;
 }
 .inspire-container > p {
-color: rgb(13, 19, 33);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 80px;
+}
+
+/* Target page css starts here  */
+
+.target-container {
+  display: flex;
+  width: 1140px;
+  height: 460px;
+  flex-direction: column;
+  margin: 0px 150px;
+  /* border: 2px solid red; */
+  /* justify-content: center; */
+  align-items: center;
+}
+.target-container > h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.target-container > p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+  opacity: 0.7;
+}
+
+
+/* Target-items section goes here  */
+
+
+.target-item-container {
+  display: flex;
+  gap: 24px;
+}
+.target-1,
+.target-2,
+.target-3 {
+  width: 364px;
+  height: 350px;
+  /* border: 2px solid red; */
+}
+
+/* Target 1 css here  */
+
+.target-1 {
+  background-color: rgba(255, 76, 30, 0.05);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.target-1 > img {
+  width: 56px;
+  height: 56px;
+  padding: 40px 0px 24px 40px;
+}
+.target-1 > h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-left: 40px;
+}
+.target-1 > p {
+    color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
-text-align: center;
+text-align: left;
 opacity: 0.7;
-margin-bottom: 80px;
+margin: 0px 40px 24px 40px;
+}
+.target-1 > a {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin: 0px 0px 40px 40px;
 }
 
-/* Target page css starts here  */
+/* Target 1 ends here  */
+
+/* Target 2 starts here  */
+
+.target-2 {
+  background-color: rgba(0, 76, 232, 0.05);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.target-2 > img {
+  width: 56px;
+  height: 56px;
+  padding: 40px 0px 24px 40px;
+}
+.target-2 > h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-left: 40px;
+}
+.target-2 > p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin: 0px 40px 24px 40px;
+}
+.target-2 > a {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin: 0px 0px 40px 40px;
+}
+
+/* Target 2 ends and target 3 starts here  */
+
+
+.target-3 {
+  background-color: rgba(255, 223, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.target-3 > img {
+  width: 56px;
+  height: 56px;
+  padding: 40px 0px 24px 40px;
+}
+.target-3 > h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+  margin-left: 40px;
+}
+.target-3 > p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin: 0px 40px 24px 40px;
+}
+.target-3 > a {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin: 0px 0px 40px 40px;
+}
