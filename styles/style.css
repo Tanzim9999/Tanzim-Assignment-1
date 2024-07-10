@@ -566,7 +566,7 @@
 
 /* Footer container starts here  */
 .footer-section {
-    display: flex;
+  display: flex;
   /* border: 2px solid red; */
   width: 1440px;
   height: 100px;
@@ -597,4 +597,134 @@
   gap: 24px;
   width: 36px;
   height: 36px;
+}
+
+/* Optional-Header-Part STARTS HERE */
+.header-section {
+  height: 131px;
+  width: 1440px;
+  display: flex;
+  /* border: 2px red solid; */
+  gap: 782px;
+}
+.header-section > h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 50px 0px 50px 150px;
+}
+.header-section > h3 > span {
+  color: orange;
+}
+.header-section > button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  /* padding: 17px 24px 17px 24px; */
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 228px;
+  height: 58px;
+  margin: 36px 0px;
+  cursor: pointer;
+}
+
+/* Optional 2 Next Target Container CSS starts here  */
+.next-target-container {
+  display: flex;
+  width: 1140px;
+  height: 866px;
+  flex-direction: column;
+  /* border: 2px red solid; */
+  margin: 0px 150px;
+  align-items: center;
+}
+.next-target-container > h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.next-target-container > p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+
+/* Here starts the design of the next target items */
+/* Target 1 css starts here  */
+
+.next-target-1 {
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 1140px;
+  height: 219px;
+  padding: 40px;
+  gap: 24px;
+  align-items:center;
+  /* align-content: center; */
+  /* justify-content:space-evenly; */
+}
+.next-target-1-div > h3 {
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 8px;
+}
+
+.next-target-1-div > p {
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+.next-target-1-div > a {
+ color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.next-target-1 > div > img {
+  width: 100px;
+}
+
+.next-target-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
