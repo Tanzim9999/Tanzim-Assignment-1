@@ -22,6 +22,7 @@
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   height: 652px;
+  width: 1440px;
   background-size: contain;
 }
 .banner-texts {
